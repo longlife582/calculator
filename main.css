@@ -31,6 +31,7 @@ body {
 
 input {
   width: 20%;
+  /* height: 100vh; */
   /* height: 60px; */
   padding: 45px;
   font-size: 22px;
@@ -45,12 +46,15 @@ input {
 
 form {
   width: 30%;
-  margin-top: 50px;
+  margin-top: 70px;
   background-color: rgb(113, 197, 218);
+  border-radius: 5%;
+  /* height: 100vh; */
 }
 
 .display {
   width: 125vw;
+ 
 }
 
 .display input {
@@ -63,4 +67,39 @@ margin-left: 40px;
   height: 10px;
   padding: 40px;
   border-radius: 10px;
+}
+
+.btn{
+    margin-left: 60px;
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        width: 100vw;
+        overflow: hidden;
+      }
+
+form{
+    width: 100%;
+    margin-top: 20px;
+    /* height: 100vh; */
+}
+input{
+    padding: 10px;
+    /* width: 30%; */
+}
+
+.display input{
+    font-size: 20px;
+    width: 65%;
+    padding: 30px;
+   
+}
+.btn{
+    margin-left: 40px;
+}
+
+
+
+    
 }
